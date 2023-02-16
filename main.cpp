@@ -1,5 +1,5 @@
 #include <iostream>
-#include "filereader.h"
+#include "filehandler.h"
 using namespace std;
 
 int main()

@@ -56,8 +56,8 @@ build CMakeFiles/Eagle2Label.dir/main.cpp.o: CXX_COMPILER__Eagle2Label_Debug /ho
   OBJECT_DIR = CMakeFiles/Eagle2Label.dir
   OBJECT_FILE_DIR = CMakeFiles/Eagle2Label.dir
 
-build CMakeFiles/Eagle2Label.dir/filereader.cpp.o: CXX_COMPILER__Eagle2Label_Debug /home/bigmac/Eagle2Label/filereader.cpp || cmake_object_order_depends_target_Eagle2Label
-  DEP_FILE = CMakeFiles/Eagle2Label.dir/filereader.cpp.o.d
+build CMakeFiles/Eagle2Label.dir/filehandler.cpp.o: CXX_COMPILER__Eagle2Label_Debug /home/bigmac/Eagle2Label/filehandler.cpp || cmake_object_order_depends_target_Eagle2Label
+  DEP_FILE = CMakeFiles/Eagle2Label.dir/filehandler.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   INCLUDES = -I/home/bigmac/Eagle2Label/.
   OBJECT_DIR = CMakeFiles/Eagle2Label.dir
@@ -71,7 +71,7 @@ build CMakeFiles/Eagle2Label.dir/filereader.cpp.o: CXX_COMPILER__Eagle2Label_Deb
 #############################################
 # Link the executable Eagle2Label
 
-build Eagle2Label: CXX_EXECUTABLE_LINKER__Eagle2Label_Debug CMakeFiles/Eagle2Label.dir/main.cpp.o CMakeFiles/Eagle2Label.dir/filereader.cpp.o
+build Eagle2Label: CXX_EXECUTABLE_LINKER__Eagle2Label_Debug CMakeFiles/Eagle2Label.dir/main.cpp.o CMakeFiles/Eagle2Label.dir/filehandler.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Eagle2Label.dir
   POST_BUILD = :
