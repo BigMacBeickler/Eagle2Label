@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.24"
+						"string" : "3.23"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Eagle2Label::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Eagle2Label-Debug-f977b1f34acb8f2e7a8b.json",
+					"jsonFile" : "target-Eagle2Label-Debug-61a29a3cb19ef0ba03d5.json",
 					"name" : "Eagle2Label",
 					"projectIndex" : 0
 				}
