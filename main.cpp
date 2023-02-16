@@ -5,6 +5,6 @@ using namespace std;
 int main()
 {
     cout << "Hello World";
-    test();
+    filehandler("label.xml");
     return 0;
 }
