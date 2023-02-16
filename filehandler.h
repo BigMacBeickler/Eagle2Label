@@ -9,7 +9,11 @@
 
 void test();
 
-class filereader {
+class filehandler {
+public:
+    filehandler();
+
+    virtual ~filehandler();
 
 };
 
