@@ -12,11 +12,12 @@ void test(){
 filehandler::filehandler(std::string file_name) {
     this->filename = file_name;
     file.open(file_name, std::ios::in | std::ios::out);
+    std::cout << "i'm aliiiiiiiiiiiiiiiiiiiiveeeeeeeeeeeee \n";
 }
 
 filehandler::~filehandler() {
     file.close();
-
+    std::cout << "i'm deeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaad \n";
 }
 
 bool filehandler::writefile() {

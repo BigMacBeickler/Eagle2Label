@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World";
-    filehandler("label.xml");
+    cout << "Hello World \n";
+    filehandler test("label.xml");
     return 0;
 }
