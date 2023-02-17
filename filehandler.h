@@ -13,13 +13,13 @@ class filehandler {
 public:
     std::string filename;
 
-    filehandler(std::string filename);
+    filehandler(std::string file_name);
     bool writefile();
     bool readfile();
     virtual ~filehandler();
 
 private:
-    std::fstream* file;
+    std::fstream file;
 };
 
 

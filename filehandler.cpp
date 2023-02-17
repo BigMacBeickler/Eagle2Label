@@ -9,13 +9,13 @@ void test(){
         std::cout << "xxxxxxxxxxxxx";
 };
 
-filehandler::filehandler(std::string filename) {
-    this->filename = filename;
-    file->open(filename, std::ios::in | std::ios::out);
+filehandler::filehandler(std::string file_name) {
+    this->filename = file_name;
+    file.open(file_name, std::ios::in | std::ios::out);
 }
 
 filehandler::~filehandler() {
-    file->close();
+    file.close();
 
 }
 
