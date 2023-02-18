@@ -5,14 +5,14 @@
 #include <iostream>
 
 
-void test(){
-        std::cout << "xxxxxxxxxxxxx";
-};
+
 
 filehandler::filehandler(std::string file_name) {
     this->filename = file_name;
-    file.open(file_name, std::ios::in | std::ios::out);
-    std::cout << "i'm aliiiiiiiiiiiiiiiiiiiiveeeeeeeeeeeee \n";
+    file.open(file_name,std::ios::in);
+        if(b_isOpen = file.is_open()) {
+            std::cout << "i'm aliiiiiiiiiiiiiiiiiiiiveeeeeeeeeeeee open \n";
+        }
 }
 
 filehandler::~filehandler() {
@@ -25,6 +25,9 @@ bool filehandler::writefile() {
 }
 
 bool filehandler::readfile() {
+    while(!file.eof()){
+        file.getline(inhalt)
+    }
     return false;
 }
 
