@@ -10,5 +10,6 @@ int main()
     std::cout << "Enter filename to open \n ";
     std::cin >> name;
     filehandler test(name);
+    test.readfile();
     return 0;
 }

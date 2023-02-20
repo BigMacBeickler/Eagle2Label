@@ -21,7 +21,7 @@ public:
 private:
     std::fstream file;
     bool b_isOpen = false;
-    char inhalt[];
+    std::string inhalt;
 };
 
 

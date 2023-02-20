@@ -8,11 +8,13 @@
 
 
 filehandler::filehandler(std::string file_name) {
-    this->filename = file_name;
-    file.open(file_name,std::ios::in);
-        if(b_isOpen = file.is_open()) {
-            std::cout << "i'm aliiiiiiiiiiiiiiiiiiiiveeeeeeeeeeeee open \n";
-        }
+    this->filename = "../" + file_name;
+    //filename = "../" + filename;
+    file.open(filename,std::ios::in);
+    if(!file.is_open()) {
+        std::cout << "opening the file failed \n";
+    }
+    file.close();
 }
 
 filehandler::~filehandler() {
@@ -25,10 +27,19 @@ bool filehandler::writefile() {
 }
 
 bool filehandler::readfile() {
-    while(!file.eof()){
-        file.getline(inhalt)
+    file.open(filename, std::ios::in);
+    if(file.fail()){
+        std::cout << "reading failed \n";
+        return false;
     }
-    return false;
+    int n = 0;
+    while (!file.eof()) {
+        std::cout << "reading line " << n ;
+        file.getline(inhalt, 100, '\n');
+        std::cout << inhalt;
+        n++;
+    }
+    return true;
 }
 
 
