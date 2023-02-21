@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.13)
 project(Eagle2Label)
 
 set(CMAKE_CXX_STANDARD 14)
+
+set(DCMAKE_SH="CMAKE_SH-NOTFOUND")
 
 include_directories(.)
 

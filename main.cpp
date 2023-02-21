@@ -29,7 +29,7 @@ int main()
             break;
     }
 
-    filehandler test = new filehandler(sName);
-    test.readfile();
+    filehandler *test = new filehandler(sName);
+    test->readfile();
     return 0;
 }
