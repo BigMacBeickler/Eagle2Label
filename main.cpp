@@ -14,22 +14,27 @@ std::vector<data> dataset;
 std::vector<filehandler> filestohandle;
 
 
-int main()
+int main(int argc, char *argv[])
 {
-    std::cerr << "Hello World \n";
-    std::cout << "press 1 to use test.brd or 0 for another file" << "\n";
-    std::cin >> bWhichfile;
-    switch (bWhichfile) {
-        case true:
-            sName = "test.brd";
-            break;
-        default:
-            std::cout << "Enter filename to open \n ";
-            std::cin >> sName;
-            break;
+    if(argc < 2){
+        std::cout << " " << argv[0] << " " << std::endl;
+        std::cerr << "Hello World \n";
+        std::cout << "press 1 to use test.brd or 0 for another file" << "\n";
+        std::cin >> bWhichfile;
+        switch (bWhichfile) {
+            case true:
+                sName = "test.brd";
+                break;
+            default:
+                std::cout << "Enter filename to open \n ";
+                std::cin >> sName;
+                break;
+        }
+    }else{
+        sName = argv[1];
     }
-
     filehandler *test = new filehandler(sName);
     test->readfile();
+    delete test;
     return 0;
 }
