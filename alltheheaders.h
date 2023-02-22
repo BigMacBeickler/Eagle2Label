@@ -8,7 +8,6 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
-//#include <ostream>
 #include "filehandler.h"
 #include "data.h"
 

@@ -16,9 +16,9 @@ std::vector<filehandler> filestohandle;
 
 int main(int argc, char *argv[])
 {
+    //check argc if any commands had been passed. first is always the filename, so commands had been passed when argc > 1
     if(argc < 2){
         std::cout << " " << argv[0] << " " << std::endl;
-        std::cerr << "Hello World \n";
         std::cout << "press 1 to use test.brd or 0 for another file" << "\n";
         std::cin >> bWhichfile;
         switch (bWhichfile) {
