@@ -14,7 +14,7 @@ public:
 
     filehandler(const std::string file_name);
     bool writefile();
-    bool readfile(const dataset* );
+    bool readfile();
     virtual ~filehandler();
 
 private:
