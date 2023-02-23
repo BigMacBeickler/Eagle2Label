@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Eagle2Label" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eagle2Label" TARGET_NAME="Eagle2Label" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eagle2Label" RUN_TARGET_NAME="Eagle2Label">
-    <method v="2">
-      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-    </method>
-  </configuration>
-</component>

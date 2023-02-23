@@ -14,6 +14,7 @@ std::vector<data> dataset;
 std::vector<filehandler> filestohandle;
 
 
+
 int main(int argc, char *argv[])
 {
     //check argc if any commands had been passed. first is always the filename, so commands had been passed when argc > 1
