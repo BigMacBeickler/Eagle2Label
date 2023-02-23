@@ -1,3 +1,0 @@
-C:/Users/bei/CLionProjects/Eagle2Label/cmake-build-debug/CMakeFiles/Eagle2Label.dir
-C:/Users/bei/CLionProjects/Eagle2Label/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bei/CLionProjects/Eagle2Label/cmake-build-debug/CMakeFiles/rebuild_cache.dir
