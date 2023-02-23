@@ -41,6 +41,6 @@ struct plug : protected parts{
 
 //like resistor, condensator etc.
 struct discrete : protected parts{
-    
+
 };
 #endif //EAGLE2LABEL_PARTS_H
