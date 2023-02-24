@@ -10,6 +10,7 @@
 #include <fstream>
 #include "filehandler.h"
 #include "data.h"
+#include "parts.h"
 
 
 #endif //EAGLE2LABEL_ALLTHEHEADERS_H

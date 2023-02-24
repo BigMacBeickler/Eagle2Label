@@ -7,14 +7,16 @@
 
 #include "alltheheaders.h"
 
-struct parts {
+struct parts{
 
     std::string sName;
     std::string sGroup;
     std::string sModel;
     bool bNamefield;
 
-    parts();
+
+    parts(const std::string &sName, const std::string &sGroup, const std::string &sModel, bool bNamefield);
+    virtual ~parts();
 };
 
 struct relais : protected parts{
