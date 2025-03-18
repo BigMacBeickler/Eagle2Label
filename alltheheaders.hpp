@@ -8,9 +8,9 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
-#include "filehandler.h"
-#include "data.h"
-#include "parts.h"
+#include "filehandler.hpp"
+#include "data.hpp"
+#include "parts.hpp"
 
 
 #endif //EAGLE2LABEL_ALLTHEHEADERS_H

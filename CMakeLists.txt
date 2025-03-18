@@ -8,7 +8,7 @@ set(DCMAKE_SH="CMAKE_SH-NOTFOUND")
 include_directories(.)
 
 add_executable(Eagle2Label
-        main.cpp filehandler.cpp filehandler.h data.cpp data.h alltheheaders.h parts.cpp parts.h)
+        main.cpp filehandler.cpp filehandler.hpp data.cpp data.hpp alltheheaders.hpp parts.cpp parts.hpp)
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
     target_compile_definitions(Eagle2Label PUBLIC DEBUG=1)

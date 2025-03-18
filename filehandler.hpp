@@ -1,8 +1,8 @@
 //
 // Created by bigma on 29.01.2023.
 //
-#include "parts.h"
-#include "alltheheaders.h"
+#include "parts.hpp"
+#include "alltheheaders.hpp"
 
 
 #ifndef EAGLE2LABEL_FILEHANDLER_H

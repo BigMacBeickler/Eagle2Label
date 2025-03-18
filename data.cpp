@@ -2,8 +2,8 @@
 // Created by bigma on 20.02.2023.
 //
 
-#include "alltheheaders.h"
+#include "alltheheaders.hpp"
 
- data::data(std::string *datatohandle) {
+data::data(std::string *datatohandle) {
 
 }

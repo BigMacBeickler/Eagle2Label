@@ -1,7 +1,7 @@
 //
 // Created by bigma on 29.01.2023.
 //
-#include "alltheheaders.h"
+#include "alltheheaders.hpp"
 
 filehandler::filehandler(const std::string file_name) {
     this->filename = "../" + file_name;

@@ -5,7 +5,7 @@
 #ifndef EAGLE2LABEL_DATA_H
 #define EAGLE2LABEL_DATA_H
 
-#include "alltheheaders.h"
+#include "alltheheaders.hpp"
 
 
 class data {
